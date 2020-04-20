@@ -9,7 +9,7 @@
         <link rel="stylesheet" href="_css/header.css" />
         <link rel="stylesheet" href="_css/footer.css" />
         <link rel="stylesheet" href="_css/base.css" />
-        <title> Stimulus - FAQ</title>
+        <title>FAQ</title>
         
     </head>
 
@@ -17,7 +17,7 @@
         <?php include('../view/_templates/header-admin.php'); ?>
         
 
-        <section id="faq-page">
+        <section id="faq-edit-page">
         
             <div class="container">
                 

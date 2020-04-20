@@ -9,7 +9,7 @@
         <link rel="stylesheet" href="_css/header.css" />
         <link rel="stylesheet" href="_css/footer.css" />
         <link rel="stylesheet" href="_css/base.css" />
-        <title>Connexion gestionnaire</title>
+        <title>Connexion utilisateur</title>
         
     </head>
 
@@ -17,7 +17,7 @@
         <?php include('../view/_templates/header.php'); ?>
         
 
-        <section id="sign-in-page">
+        <section id="user-sign-in-page">
 
             <div class="container">
 

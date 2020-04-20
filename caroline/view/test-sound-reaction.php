@@ -8,8 +8,7 @@
         <meta charset="utf-8">
         <link rel="stylesheet" href="_css/header.css" />
         <link rel="stylesheet" href="_css/footer.css" />
-        <link rel="stylesheet" href="_css/base.css" />
-        <title>Notifications utilisateur</title>
+        <link rel="stylesheet" href="_csTestNotifications utilisateur</title>
         
     </head>
 
@@ -17,7 +16,7 @@
         <?php include('../view/_templates/header-user.php'); ?>
         
 
-        <section id="user-notifications-page">
+        <section class="test-page">
 
             <div class="container">
 

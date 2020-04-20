@@ -9,7 +9,7 @@
         <link rel="stylesheet" href="_css/header.css" />
         <link rel="stylesheet" href="_css/footer.css" />
         <link rel="stylesheet" href="_css/base.css" />
-        <title> Stimulus - FAQ</title>
+        <title>FAQ</title>
         
     </head>
 

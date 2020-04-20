@@ -9,7 +9,7 @@
         <link rel="stylesheet" href="_css/header.css" />
         <link rel="stylesheet" href="_css/footer.css" />
         <link rel="stylesheet" href="_css/base.css" />
-        <title>Notifications utilisateur</title>
+        <title>Test</title>
         
     </head>
 
@@ -17,7 +17,7 @@
         <?php include('../view/_templates/header-user.php'); ?>
         
 
-        <section id="user-notifications-page">
+        <section class="test-page">
 
             <div class="container">
 

@@ -9,7 +9,7 @@
         <link rel="stylesheet" href="_css/header.css" />
         <link rel="stylesheet" href="_css/footer.css" />
         <link rel="stylesheet" href="_css/base.css" />
-        <title> STIMULUS - gestion - ajout</title>
+        <title>Gestion des utilisateurs</title>
         
     </head>
 

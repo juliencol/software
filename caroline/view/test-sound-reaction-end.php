@@ -17,7 +17,7 @@
         <?php include('../view/_templates/header-user.php'); ?>
         
 
-        <section id="user-notifications-page">
+        <section class="test-page">
 
             <div class="container">
 
@@ -29,7 +29,7 @@
 
                 <div id="bouton">
 	
-                    <p><a href="#">Voir les résultats</a></p>
+                    <p><a href="../view/user-results">Voir les résultats</a></p>
 
                     <br><br><br>
 
