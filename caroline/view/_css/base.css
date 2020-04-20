@@ -1,0 +1,133 @@
+/*///// COMMUN À TOUTES LES PAGES /////*/
+
+body {
+    height: 600px;
+
+}
+
+.titre-page {
+    background-color: rgba(173, 173, 173, 0.5); /* correspond au #adadad */
+    height: 75px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    vertical-align: middle;
+    font-size: large;
+    color: #7245db;
+}
+
+h2 {
+    font-size: large;
+}
+
+
+a, a:visited {
+    color: hsl(258, 68%, 56%);
+}
+
+a:hover {
+    color: #49c0cf;
+}
+
+a:link { 
+    text-decoration: none; 
+} 
+
+body .container {
+    min-height: 500px;
+}
+
+
+/*///// HOME.PHP /////*/
+#home-page {
+    height: 650px;
+    background-image: url('home-background.png');
+    display: flex;
+    color: white;
+    justify-content: center;
+}
+
+#home-page .container {
+    justify-content: center;
+    text-align: center;
+    margin-top: 10%;
+}
+
+#home-page .top-container {
+    background-color: rgba(173, 173, 173, 0.3);
+    width: 900px;
+    height: 200px;
+    color: #7245db;
+    display: flex;
+
+    margin-top: 15px;
+    font-size: xx-large;
+    justify-content: center;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#home-page .middle-container {
+    font-size: large;
+}
+
+
+
+/*///// SIGN-IN.PHP /////*/
+
+#sign-in-page .who-are-you-section {
+    color: #7245db;
+    height: 300px;
+    font-size: large;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 150px
+}
+
+#sign-in-page .btn-primary {
+    border-style: inset;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+
+
+
+
+
+/*///// EQUIPE.PHP /////*/
+
+#presentation-team-page {
+    text-align: center;   
+}
+
+#presentation-text {
+    font-size: large;
+}
+
+#membres-team {
+
+    width: 850px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#first-row, #second-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+
+figure img {
+    box-shadow: 3px 3px 3px #adadad;  
+}
+
+figcaption {
+    text-align: center;
+    color: #7245db;
+}
