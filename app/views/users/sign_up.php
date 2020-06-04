@@ -3,8 +3,9 @@
 <style> <?php include APPROOT . '/../public/css/style.css'; ?> </style>
 <style> <?php include APPROOT . '/../public/css/users/sign_up.css'; ?> </style>
 
+<?php require APPROOT . '/views/inc/header.php'; ?> 
 
-<div class="main-container">
+<div class="container">
   <h1>Créer un compte</h1>
   <div class="sign-up-form-container">
     <form action="<?php echo URLROOT; ?>/users/sign_up" method="post">
@@ -20,7 +21,7 @@
       </div>
       <div>
         <label for="birthday_date"><strong>Data de naissance *</strong></label>
-        <input type="date" name="birthday_date" <?php echo (!empty($data['birthday_date_error'])) ? 'is-invalid' : ''; ?> value="<?php echo $data['name'] ?>" >
+        <input type="date" name="birthday_date" <?php echo (!empty($data['birthday_date_error'])) ? 'is-invalid' : ''; ?> value="<?php echo $data['last_name'] ?>" >
         <p><span class="error-message"><?php echo $data['birthday_date_error']; ?></span></p>
       </div>
       <div>
